@@ -3,3 +3,6 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: linear-gradient(to right,#121117,#181820);
+} 
