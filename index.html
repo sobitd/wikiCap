@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>WikiCap - Home of Crypto </title>
+</head>
+
+<body>
+    <section id="home">
+        <!-- Navigation Section  -->
+        <nav class="nav">
+            <div class="nav-header">
+                <div class="nav-title">wikiCap</div>
+            </div>
+            </div>
+            <div class="menu navbar">
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li><a href="#markets">Markets</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <input type="checkbox" id="nav-responsive">  -->
+
+        <div class="container">
+            <div class="landing-text">
+                <p>The Simplest Way to track <br><span>Multiple Currencies</span></p>
+                <p>WikiCap allows you to explore the crypto world easily. Trust WikiCap to be your crypto market
+                    partner
+                </p>
+                <button> Let's get started</button>
+            </div>
+            <div class="landing-images">
+                <img class="circle-image" src="https://i.pinimg.com/564x/6a/6f/8e/6a6f8e49ce2b17096f13021d9781f2e1.jpg"
+                    alt="satoshi_nft" />
+                <img class="small-circle top"
+                    src="https://i.pinimg.com/564x/4c/8c/59/4c8c593991c81a34e9e082c94a861b20.jpg" alt="satoshi_nft" />
+                <img class="small-circle bottom"
+                    src="https://i.pinimg.com/564x/08/ff/5b/08ff5bf715380cd92e24d24ba5cb2c6d.jpg" alt="satoshi_img" />
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Markets -->
+    <section id="markets">
+        <div class="markets-container">
+            <header>
+                <h2> Current market</h3>
+            </header>
+
+            <table id="crypto-table">
+                <thead>
+                    <tr>
+                        <th>Market</th>
+                        <th>Coin</th>
+                        <th>Last price</th>
+                        <th>24 hour change</th>
+                        <th>Chart</th>
+                        <th>Market capitalization</th>
+
+                    </tr>
+                </thead>
+
+                <tbody id="crypto-table-body"></tbody>
+            </table>
+        </div>
+    </section>
+    <!-- News Section -->
+    <section id="news">
+        <div class="news-card">
+            <div class="news-card-header">
+                <h3> Global Business Headlines</h3>
+            </div>
+            <div id="content-wrapper" class="news-card-content">
+                <ul id="newslist"></ul>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services">
+        <div class="services-container">
+            <div class="wrapper">
+                <h4>Services that we<br> continue to improve</h4>
+                <p>The best choice for crypto market information <br> and news, with the various super friendly
+                    <br>services
+                    we offer</p>
+                <button class="button">Signup</button>
+            </div>
+            <div class="nested-container">
+                <div class="nested">
+                    <img class="nested-image" src="https://cdn-icons-png.flaticon.com/512/1326/1326677.png"
+                        alt="security icon">
+                    <div class="nested-text">
+                        <h4>Security guarantee</h4>
+                        <p>Security is guaranteed, we always maintain privacy and maintain the quality of our products
+                        </p>
+                    </div>
+                </div>
+                <div class="nested">
+                    <img class="nested-image" src="https://cdn-icons-png.flaticon.com/512/6624/6624423.png" />
+                    <div class="nested-text">
+                        <h4>Transparent</h4>
+                        <p>We provide transparent services, our systems and ecosystems can be monitored always</p>
+                    </div>
+                </div>
+                <div class="nested">
+                    <img class="nested-image" src="https://cdn-icons-png.flaticon.com/512/833/833472.png"
+                        alt="love icon" />
+                    <div class="nested-text">
+                        <h4>User Convenience </h4>
+                        <p> Any service we provide to users is our best experience or services for our beloved customers
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pin Notes Here: -->
+    <section class="pin-todo">
+        <form class="pin-notes">
+            <h4 class="title">Pin Notes Here</h4>
+            <div class="new-task">
+                <input type="text" id="input" placeholder="schedule your trades here!">
+                <button type="submit" class="submit-button">Post</button>
+            </div>
+        </form>
+        <div id="tasks"></div>
+        <button class="reset-button">Clear List</button>
+    </section>
+
+    <!-- Highlight Coins -->
+    <!-- <section>
+        <div class="coins-container">
+            <div>
+                <h4>Fantastic crypo coin<br>prices on WikiCap</h4>
+                <p>Here are some fanstatic prices on the<br> hottest coins,what are you waiting for start investing now
+                </p>
+            </div>
+            <div class="grid">
+                <div class="coin">Doge</div>
+                <div class="coin">Bitcoin</div>
+                <div class="coin">Etherium</div>
+                <div class="coin">Binance</div>
+                <div class="coin">Tether</div>
+                <div class="coin">Dash</div>
+                <div class="coin">Polydot</div>
+            </div>
+            <div>
+                <div>
+                    <h4>Start investing your<br>crypto coins using WikiCap</h4>
+                    <p>Take the first step for a future without limits</p>
+                </div>
+                <button>Let's get started</button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Testimonials -->
+
+    <h2> Testimonials</h2>
+    <section id="testimonials">
+        <div class="slider">
+
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
+
+            <div class="slides">
+                <div id="slide-1">
+                    <div class="wrapper">
+                        <img class="testimonial-image"
+                            src="https://i.pinimg.com/564x/cb/46/db/cb46dbf8daf25b1b91a80fd0fc914e6f.jpg"
+                            alt="client_image" />
+
+                        <div class="testimonial-text">
+                            <div class="testimonial-information">
+                                <div class="client-name">Kimani Ichung'wa</div>
+                                <div class="client-location">Kikuyu</div>
+                            </div>
+                            <div class="client-words">Being a wikiCap client has been great. Support is always
+                                responsive and helpful, and best of all I've been able to help many new Bitcoin users
+                                get some of their first Bitcoin. It`s always rewarding to be the first on-ramp to the
+                                currency of the future
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide-2">
+                    <div class="wrapper">
+                        <img class="testimonial-image"
+                            src="https://i.pinimg.com/564x/fb/06/70/fb0670cfe8cc3f8d6257990ca436fe8b.jpg"
+                            alt="client_image" />
+
+                        <div id="testimonial-2">
+                            <div class="testimonial-text">
+                                <div class="client-name">Saitemu Mark</div>
+                                <div class="client-location"> Ngong</div>
+                            </div>
+                            <div class="client-words">WikiCap is my first Bitcoin experience. Started as your regular
+                                newbie first time BTC buyer - asking legacy traders what is a wallet and why I need to
+                                follow verification steps. Sold over 400+ Bitcoin to date and helped over 800 newbies
+                                like myself to dive in to this new currency.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide-3">
+                    <div class="wrapper">
+                        <img class="testimonial-image"
+                            src="https://i.pinimg.com/564x/e6/b5/06/e6b50615215a67187a019952388dd1df.jpg"
+                            alt="client_image" />
+
+                        <div class="testimonial-text">
+                            <div class="client-name">Sobbo Daniel</div>
+                            <div class="client-location">Waiyaki Way</div>
+                        </div>
+                        <div class="client-words">
+                            I absolutely love this app. It is the very best way to keep track of the alt coin markets.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide-4">
+                    <div class="wrapper">
+                        <img class="testimonial-image"
+                            src="https://i.pinimg.com/564x/c4/9d/b8/c49db80a2f3277dc0f4d25db30743fbb.jpg"
+                            alt="client_image" />
+
+                        <div class="testimonial-text">
+                            <div class="client-name"> Sumaiya Sumaiya</div>
+                            <div class="client-location">Kileleshwa</div>
+                        </div>
+                        <div class="client-words">
+                            Very useful for everyone.. and trust site... this time they increase earning coins,
+                            wonderful and thankyou so much for my every day withdrawal..😊
+                        </div>
+                    </div>
+                </div>
+
+                <div id="slide-5">
+                    <div class="wrapper">
+                        <img class="testimonial-image"
+                            src="https://i.pinimg.com/564x/13/10/20/131020e775019a4eb42c33afd9dc1287.jpg"
+                            alt="client_image" />
+
+                        <div class="testimonial-text">
+                            <div class="client-name"> Arnold Arnold</div>
+                            <div class="client-location">Mirema Drive</div>
+                        </div>
+                        <div class="client-words">
+                            This website is useful for earning crypto coins.I like very much.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="col">
+                    <h4>wikiCap</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&#169;2022 Daniel Sobit. All rights reserved</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
