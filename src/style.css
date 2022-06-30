@@ -27,3 +27,7 @@ nav{
     font-weight: 1000;
     color: #fc6a03;
 }
+
+.nav > .nav-responsive > label{
+    width: 60px;
+}
