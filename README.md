@@ -7,6 +7,8 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
+ 
+ <p> This is the link to the previous repository: https://github.com/sobitd/wikiCapp </p>
 
  <p>This repository contains the wikiCap web application.</p>
 
