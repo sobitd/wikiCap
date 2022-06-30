@@ -1,0 +1,99 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      },
+      {
+        "text": "IOIOIO",
+        "id": 31
+      },
+      {
+        "text": "JUIIOIO",
+        "id": 32
+      },
+      {
+        "text": "KKKK",
+        "id": 33
+      },
+      {
+        "text": "jdkjd",
+        "id": 34
+      },
+      {
+        "text": "ccc",
+        "id": 35
+      },
+      {
+        "text": "ddd",
+        "id": 36
+      },
+      {
+        "text": "sss",
+        "id": 37
+      },
+      {
+        "text": "ddd",
+        "id": 38
+      },
+      {
+        "text": "ddd",
+        "id": 39
+      },
+      {
+        "text": "sobit",
+        "id": 40
+      },
+      {
+        "text": "a",
+        "id": 41
+      },
+      {
+        "text": "s",
+        "id": 42
+      },
+      {
+        "text": "g",
+        "id": 43
+      },
+      {
+        "text": "ddd",
+        "id": 44
+      },
+      {
+        "text": "fffd",
+        "id": 45
+      },
+      {
+        "text": "gggf",
+        "id": 46
+      },
+      {
+        "text": "dmjd",
+        "id": 47
+      },
+      {
+        "text": "dhd",
+        "id": 48
+      },
+      {
+        "text": "igjfkld",
+        "id": 49
+      },
+      {
+        "text": "jjkj",
+        "id": 50
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
