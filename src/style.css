@@ -38,4 +38,6 @@ nav{
 .nav > .navbar {
     float: right;
     display: inline;
+    font-size: 20px;
+    margin-right: 15px;
 }
