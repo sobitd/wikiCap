@@ -6,3 +6,10 @@
 body{
     background-image: linear-gradient(to right,#121117,#181820);
 } 
+
+nav{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    font-size: 1.5rem;
+}
