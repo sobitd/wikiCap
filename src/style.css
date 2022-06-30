@@ -23,4 +23,7 @@ nav{
 .nav>.nav-header>.nav-title{
     font-size: 35px;
     padding: 20px 80px;
+    display: inline-block;
+    font-weight: 1000;
+    color: #fc6a03;
 }
