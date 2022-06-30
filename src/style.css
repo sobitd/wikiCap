@@ -36,5 +36,6 @@ nav{
 }
 
 .nav > .navbar {
-    
+    float: right;
+    display: inline;
 }
